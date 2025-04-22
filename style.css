@@ -183,3 +183,41 @@ line-height: normal;
     background-color: #1D2E64;
     margin: 0 auto;
 }
+
+
+.whyus {
+    background-color: #1D2E64;
+    padding: 2rem 1rem;
+    
+}
+
+.redtext {
+    color: #E93631;
+    font-weight: 700;
+}
+
+.paragraphtext {
+    font-family: Kanit;
+    font-weight: 700;
+    font-size: clamp(14px, 1.5vw, 18px);
+    color: white;
+}
+
+.lessonsbutton {
+    width: 100%;
+    max-width: 300px;
+    min-width:200px;
+    aspect-ratio: 5 / 1;
+    background-color: #E93631;
+    border: 5px solid #E93631;
+    border-radius: 50px;
+    font-family: Kanit;
+    font-size: clamp(14px, 2vw, 20px);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

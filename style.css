@@ -221,3 +221,97 @@ line-height: normal;
     align-items: center;
     justify-content: center;
 }
+
+.lessonsbutton:hover {
+    background-color: #aa2723;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 5px;
+    position: absolute; 
+    width: 300px;
+    height: 250px; 
+    padding: 0px; 
+    opacity: 0;
+    will-change: transform, opacity;
+    animation: carousel 15s linear infinite; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card:nth-child(1) {
+    animation-delay: -3s; 
+}
+
+.card:nth-child(2) {
+    animation-delay: 0s; 
+}
+
+.card:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.card:nth-child(4) {
+    animation-delay: 6s; 
+}
+
+.card:last-child {
+    animation-delay: 9s; 
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateY(100%) scale(0.5);
+        opacity: 0;
+        visibility: hidden; 
+    } 
+    3%, 20% {
+        transform: translateY(100%) scale(0.7);
+        opacity: 0.4;
+        visibility: visible; 
+    }
+    23%, 40% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        visibility: visible; 
+    }
+    43%, 60% {
+        transform: translateY(-100%) scale(0.7);
+        opacity: 0.4;
+        visibility: visible; 
+    }
+    63% {
+        transform: translateY(-100%) scale(0.5);
+        opacity: 0;
+        visibility: visible; 
+    }
+    100% {
+        transform: translateY(-100%) scale(0.5);
+        opacity: 0;
+        visibility: hidden; 
+    }
+}
+
+.ourfounder {
+    color: #E93631;
+    font-weight: 900;
+}
+
+.founderpara {
+    background-color: #1D2E64;
+    padding: 2rem 1rem;
+    
+}

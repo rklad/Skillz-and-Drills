@@ -351,3 +351,34 @@ font-weight: 900;
     'GRAD' 0,
     'opsz' 24
   }
+
+  .headtext {
+    font-family: 'Nico Moji', sans-serif;
+    font-size: 80px;
+    color: #E93631;
+  }
+
+  .belowheader {
+    color: #1D2E64;
+font-family: Kanit;
+font-size: clamp(25px, 35px, 50px);
+font-weight: 800;
+line-height: normal;
+  }
+
+  .weoffer {
+    background-color: #1D2E64;
+    padding: 2rem 1rem;
+    border-radius: 50px;
+    max-height:500px;
+}
+
+.weoffer h2 {
+    font-size: clamp(2rem, 6vw, 4rem); /* responsive size */
+}
+
+/* Style for list items on the right */
+.weoffer ul li {
+    font-size: clamp(1rem, 2vw, 1.5rem); /* slightly larger */
+    line-height: 1.5;
+}

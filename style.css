@@ -382,3 +382,15 @@ line-height: normal;
     font-size: clamp(1rem, 2vw, 1.5rem); /* slightly larger */
     line-height: 1.5;
 }
+
+.bluetext {
+    color: #1D2E64;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.igtext {
+    font-size: 50px;
+}

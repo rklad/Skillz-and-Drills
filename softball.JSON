@@ -1,6 +1,6 @@
-{
+[
     {
-     "lessonName": "Hitting",
+     "lessonName": "Softball Hitting",
      "description": "Need some extra practice at the plate? This is the perfect lesson for you! We offer lessons on how to improve your swing and offer tons of practice!",
      "ageLevel": "5-18",
      "singleOrTeam": "Single and Team",
@@ -9,7 +9,7 @@
      "location" : "Somerset & Monmouth County in New Jersey <strong>WE CAN COME TO YOU!</strong>"
     },
     {
-     "lessonName": "Fielding",
+     "lessonName": "Softball Fielding",
      "description": "Want to work on your glove? We can work with you on ground balls and fly balls to help improve your fielding skills!",
      "ageLevel": "5-18",
      "singleOrTeam": "Single and Team",
@@ -18,7 +18,7 @@
      "location" : "Somerset & Monmouth County in New Jersey <strong>WE CAN COME TO YOU!</strong>"
     }, 
     {
-     "lessonName": "Throwing",
+     "lessonName": "Softball Throwing",
      "description": "Having trouble throwing the ball accurately? This lesson will help improve your accuracy and range when it comes to throwing the ball!",
      "ageLevel": "5-18",
      "singleOrTeam": "Single and Team",
@@ -28,7 +28,7 @@
     },
  
     {
-     "lessonName": "Pitching and Catching",
+     "lessonName": "Softball Pitching and Catching",
      "description": "Any pitchers or catchers out there? This lesson will work with pitchers to craft their skillset of pitches. This lesson also helps catchers work on their ability to catch pitches and maybe even pick off baserunners!",
      "ageLevel": "5-18",
      "singleOrTeam": "Single and Team",
@@ -38,7 +38,7 @@
     },
  
     {
-     "lessonName": "Baserunning",
+     "lessonName": "Softball Baserunning",
      "description": "Knowing how to best run the bases will always help you and your team score. Sign up now!",
      "ageLevel": "5-18",
      "singleOrTeam": "Single and Team",
@@ -48,14 +48,14 @@
     },
  
     {
-     "lessonName": "Team Practice",
+     "lessonName": "Softball Team Practice",
      "description": "Do you work better with other people? Work with your teammates and build strong relationships in multiple team-built drills!",
      "ageLevel": "5-18",
      "playerRequirement": "Requires at least 10 players",
      "teamPrice": "$15 per player for 90 minutes</strong>",
      "location" : "Somerset & Monmouth County in New Jersey <strong>WE CAN COME TO YOU!</strong>"
     }
- }
+]
  
  
  

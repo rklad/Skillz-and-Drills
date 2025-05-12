@@ -8,6 +8,7 @@ nav.navbar {
     text-align: right;
     background-color: #1D2E64;
     font-family: sans-serif;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
 
@@ -449,4 +450,22 @@ input[type="radio"] {
 
 .lessonsRedText {
     color:#E93631;
+}
+
+.baseball {
+    cursor: pointer;
+}
+
+.softball {
+    cursor: pointer;
+}
+
+.lessonheaders {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+
+.nav-logo {
+    width: 100px;
 }

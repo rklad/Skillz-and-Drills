@@ -1,4 +1,4 @@
-{
+[
    {
     "lessonName": "Hitting",
     "description": "Need some extra practice at the plate? This is the perfect lesson for you! We offer lessons on how to improve your swing and offer tons of practice!",
@@ -53,8 +53,8 @@
     "ageLevel": "5-18",
     "playerRequirement": "Requires at least 10 players",
     "teamPrice": "$15 per player for 90 minutes</strong>",
-    "location" : "Somerset & Monmouth County in New Jersey <strong>WE CAN COME TO YOU!</strong>"
+    "location" : "Somerset & Monmouth County in New Jersey (<strong>WE CAN COME TO YOU!</strong>)"
    }
-}
+]
 
 

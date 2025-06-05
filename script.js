@@ -35,20 +35,20 @@ $(document).ready(function () {
   }
 
   // Load default (baseball) lessons on page load
-  loadLessons('data/baseball.json');
+  loadLessons('baseball.json');
   $('.baseball').addClass("lessonsRedText");
 
   // Click handlers to load the correct lessons and toggle styles
   $('.softball').on("click", function () {
     $('.baseball').removeClass("lessonsRedText");
     $(this).addClass("lessonsRedText");
-    loadLessons('data/softball.json');
+    loadLessons('softball.json');
   });
 
   $('.baseball').on("click", function () {
     $('.softball').removeClass("lessonsRedText");
     $(this).addClass("lessonsRedText");
-    loadLessons('data/baseball.json');
+    loadLessons('baseball.json');
   });
 });
 

@@ -90,117 +90,55 @@
                 </h1>
             </div>
         </div>
-        <div class="space"></div>
-        <div class="row justify-content-center ">
-            <h3 class="belowheader">Any Questions? Reach out!</h3>
-        </div>
+      
+        
     </div>
     <!-- END OF LANDING-->
 
+    <!-- CONTACT FORM API -->
+    <section class="contact-section">
+  <div class="contact-intro">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-description kanittext">
+      Fill out the form below and we'll get back to you as soon as possible.
+    </p>
+  </div>
 
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
+    <input type="hidden" name="access_key" value="d0d1ba04-2e73-47c1-a34c-0d68e76f16fe" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
 
-    <!-- WHY US DIV-->
-    <div class="landing"></div>
-    <div class="landing"></div>
-    
-
-
-
-
-
-
-
-<!--ADD SCROLL DOWN MESSAGE HERE-->
-
-
-
-
-
-
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <div class="container whyus">
-                    <div class="row text-center justify-content-center">
-                        <div class="col-10">
-                            <h1 class="redtext kanittext">Why Us?</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <p class="paragraphtext text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus enim velit, mollis vitae dolor non, congue feugiat lectus. Sed imperdiet consequat
-                            augue, ac sodales lectus luctus eu. Fusce a accumsan mi. In hac habitasse platea dictumst.
-                            Sed dignissim aliquet purus id ornare. Nulla fermentum massa non lectus aliquam congue.
-                            Fusce luctus odio sit amet ex ultricies pellentesque. Donec in nisl sollicitudin, facilisis
-                            tellus at, tristique ligula. Quisque accumsan sed quam at vehicula.</p>
-                    </div>
-                    <div class="row justify-content-center p-4">
-                        <div class="col-6 d-flex justify-content-center">
-                            <a href="lessons.html" style="text-decoration: none"><button class="lessonsbutton text-white">
-                                Check out our lessons!
-                            </button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
     </div>
-    <!-- END OF WHY US DIV -->
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
 
-    <div class="landing"></div>
-   
+</section>
+<!--END OF FORM-->
 
-    <!-- SCALZO BIO -->
-     <div class="container">
-        <div class="row justify-content-center align-items-center">
-            <!-- CAROUSEL IMAGES OF SCALZO -->
-            <div class="col-md-4 col-12 mb-5">
-                <div class="carousel">
-                    <div class="card"><img src="https://picsum.photos/300/250" alt="IMG1"></div>
-                    <div class="card"><img src="https://picsum.photos/300/250" alt="IMG2"></div>
-                    <div class="card"><img src="https://picsum.photos/300/250" alt="IMG3"></div>
-                    <div class="card"><img src="https://picsum.photos/300/250" alt="IMG4"></div>
-                    <div class="card"><img src="https://picsum.photos/300/250" alt="IMG5"></div>
-                </div>
-            </div>
-            <!--SCALZO BIO PARAGRAPH-->
-            <div class="col-md-6 col-12 founderpara text-center ">
-                <h2 class="ourfounder">Our Founder</h2>
-                <p class="paragraphtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus enim velit, mollis vitae dolor non, congue feugiat lectus. Sed imperdiet consequat augue, ac sodales lectus luctus eu. Fusce a accumsan mi. In hac habitasse platea dictumst.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus enim velit, mollis vitae dolor non, congue feugiat lectus. Sed imperdiet consequat augue, ac sodales lectus luctus eu. Fusce a accumsan mi. In hac habitasse platea dictumst. </p>
-            </div>
-        </div>
-     </div>
 
-     <div class="landing"></div>
-     
-    <!-- DIV FOR LINK TO CONTACT PAGE -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <div class="container whyus">
-                    <div class="row text-center justify-content-center">
-                        <div class="col-10">
-                            <h1 class="redtext contacttext">Any Questions? <br> Reach Out!</h1>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center p-4">
-                        <div class="col-6 d-flex justify-content-center">
-                            <a href="contact.html" style="text-decoration: none"><button class="lessonsbutton text-white">
-                                Contact Us!
-                            </button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END OF CONTACT DIV -->
 
-    <div class="landing"></div>
 
-    <!-- Remove the container if you want to extend the Footer to full width. -->
+  
 
     <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #1D2E64">

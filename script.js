@@ -42,13 +42,13 @@ $(document).ready(function () {
   $('.softball').on("click", function () {
     $('.baseball').removeClass("lessonsRedText");
     $(this).addClass("lessonsRedText");
-    loadLessons('softball.json');
+    loadLessons('./softball.json');
   });
 
   $('.baseball').on("click", function () {
     $('.softball').removeClass("lessonsRedText");
     $(this).addClass("lessonsRedText");
-    loadLessons('baseball.json');
+    loadLessons('./baseball.json');
   });
 });
 

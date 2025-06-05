@@ -767,3 +767,15 @@
     background-color: #E93631;
 }
 
+.card {
+    width:350px;
+    height: auto;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid #1D2E64;
+    border-radius: 10px;
+}
+
+
+
